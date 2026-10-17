@@ -1,0 +1,81 @@
+
+/* 1. Default spacing remove karo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Puri website ka basic design */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: white;
+}
+
+.home-page {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.home-page h1 {
+  font-size: 48px;
+  margin: 0;
+  color: #f8fafc;
+}
+
+.home-page p {
+  font-size: 18px;
+  color: #cbd5e1;
+  margin: 0;
+}
+
+.home-page .btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #ff4545;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.home-page .btn:hover {
+  background-color: #e63232;
+}
+
+@media (max-width: 600px) {
+  .home-page h1 {
+    font-size: 32px;
+  }
+
+  .home-page p {
+    font-size: 16px;
+  }
+}
+/* 3. Links ka default underline remove karo */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 4. Buttons aur inputs ki font same rakho */
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+/* 5. Images ko container se bahar jaane se roko */
+img {
+  max-width: 100%;
+}
