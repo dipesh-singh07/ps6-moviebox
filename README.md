@@ -31,13 +31,14 @@ A responsive TV show exploration web application built with React, React Router,
 
 ## 📸 Screenshots
 
-### 1. Home & Browse Shows Page
-![Browse Shows](./screenshots/home.png)
+### 1. Home Page
+![Home Page](./screenshots/home.png)
 
-### 2. Show Details & Cast Page
+### 2. Browse Shows Page
+![Browse Shows](./screenshots/browse.png)
+
+### 3. Show Details & Cast Page
 ![Show Details](./screenshots/details.png)
-
-*(Note: Add your screenshot images to the `screenshots/` directory or replace the paths above with your hosted image URLs)*
 
 ---
 
